@@ -3,11 +3,11 @@ using namespace std;
 
 class PersonalInfo {
 public:
-    char* firstname;
+    string firstname;
     int firstname_length;
-    char* surname;
+    string surname;
     int surname_length;
-    char* lastname;
+    string lastname;
     int lastname_length;
 };
 
@@ -16,7 +16,7 @@ public:
     int birth_day;
     int birth_month;
     int birth_year;
-    char* znak_zodiaka;
+    string znak_zodiaka;
     int length_zodiak;
 };
 
@@ -36,8 +36,8 @@ public:
 
 class TeacherInfo {
 public:
-    char* teacher_name;
-    char* subject_name;
+    string teacher_name;
+    string subject_name;
 };
 
 class GradesInfo {
@@ -52,9 +52,9 @@ public:
 
 class AddressInfo {
 public:
-    char* city;
+    string city;
     int city_length;
-    char* street;
+    string street;
     int street_length;
     int house_number;
     char korpus;
@@ -63,9 +63,9 @@ public:
 
 class CountryInfo {
 public:
-    char* country;
+    string country;
     int country_length;
-    char* region;
+    string region;
     int region_length;
 };
 
@@ -78,9 +78,9 @@ public:
 
 class GroupDetails {
 public:
-    char* group_name;
+    string group_name;
     int group_name_length;
-    char* specialization;
+    string specialization;
     int specialization_length;
 };
 
@@ -102,8 +102,8 @@ public:
 
 class TeacherDetails {
 public:
-    char* teacher_name;
-    char* subject_name;
+    string teacher_name;
+    string subject_name;
 };
 
 class StudentCountInfo {
